@@ -1,5 +1,5 @@
 Para los siguientes comandos:
-hola
+hola HOLA
 mvn compile
 [INFO] Scanning for projects...
 [INFO]
