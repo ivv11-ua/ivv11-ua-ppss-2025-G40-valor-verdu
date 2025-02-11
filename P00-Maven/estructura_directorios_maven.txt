@@ -1,0 +1,178 @@
+ivan@ivan-ASUS-TUF-Gaming-F15-FX506LH-FX506LH:~/IdeaProjects/ivv11-ua-ppss-2025-G40-valor-verdu/P00-Maven/P00-maven1$ tree
+.
+├── pom.xml
+└── src
+    ├── main
+    │   ├── java
+    │   │   └── paquete1
+    │   │       ├── Matricula.java
+    │   │       └── Triangulo.java
+    │   └── resources
+    └── test
+        └── java
+            └── paquete1
+                ├── MatriculaTest.java
+                └── TrianguloTest.java
+
+9 directories, 5 files
+
+Después DE mvn  compile
+ivan@ivan-ASUS-TUF-Gaming-F15-FX506LH-FX506LH:~/IdeaProjects/ivv11-ua-ppss-2025-G40-valor-verdu/P00-Maven/P00-maven1$ tree
+.
+├── pom.xml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── paquete1
+│   │   │       ├── Matricula.java
+│   │   │       └── Triangulo.java
+│   │   └── resources
+│   └── test
+│       └── java
+│           └── paquete1
+│               ├── MatriculaTest.java
+│               └── TrianguloTest.java
+└── target
+    ├── classes
+    │   └── paquete1
+    │       ├── Matricula.class
+    │       └── Triangulo.class
+    ├── generated-sources
+    │   └── annotations
+    └── maven-status
+        └── maven-compiler-plugin
+            └── compile
+                └── default-compile
+                    ├── createdFiles.lst
+                    └── inputFiles.lst
+
+18 directories, 9 files
+
+Después de mvn clean
+ivan@ivan-ASUS-TUF-Gaming-F15-FX506LH-FX506LH:~/IdeaProjects/ivv11-ua-ppss-2025-G40-valor-verdu/P00-Maven/P00-maven1$ tree
+.
+├── pom.xml
+└── src
+    ├── main
+    │   ├── java
+    │   │   └── paquete1
+    │   │       ├── Matricula.java
+    │   │       └── Triangulo.java
+    │   └── resources
+    └── test
+        └── java
+            └── paquete1
+                ├── MatriculaTest.java
+                └── TrianguloTest.java
+
+9 directories, 5 files
+
+
+Después del mvn test
+ivan@ivan-ASUS-TUF-Gaming-F15-FX506LH-FX506LH:~/IdeaProjects/ivv11-ua-ppss-2025-G40-valor-verdu/P00-Maven/P00-maven1$ tree
+.
+├── pom.xml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── paquete1
+│   │   │       ├── Matricula.java
+│   │   │       └── Triangulo.java
+│   │   └── resources
+│   └── test
+│       └── java
+│           └── paquete1
+│               ├── MatriculaTest.java
+│               └── TrianguloTest.java
+└── target
+    ├── classes
+    │   └── paquete1
+    │       ├── Matricula.class
+    │       └── Triangulo.class
+    ├── generated-sources
+    │   └── annotations
+    ├── generated-test-sources
+    │   └── test-annotations
+    ├── maven-status
+    │   └── maven-compiler-plugin
+    │       ├── compile
+    │       │   └── default-compile
+    │       │       ├── createdFiles.lst
+    │       │       └── inputFiles.lst
+    │       └── testCompile
+    │           └── default-testCompile
+    │               ├── createdFiles.lst
+    │               └── inputFiles.lst
+    ├── surefire-reports
+    │   ├── paquete1.MatriculaTest.txt
+    │   ├── paquete1.TrianguloTest.txt
+    │   ├── TEST-paquete1.MatriculaTest.xml
+    │   └── TEST-paquete1.TrianguloTest.xml
+    └── test-classes
+        └── paquete1
+            ├── MatriculaTest.class
+            └── TrianguloTest.class
+
+25 directories, 17 files
+
+
+
+
+
+
+
+
+
+
+
+
+ivan@ivan-ASUS-TUF-Gaming-F15-FX506LH-FX506LH:~/IdeaProjects/ivv11-ua-ppss-2025-G40-valor-verdu/P00-Maven/P00-maven2$ tree
+.
+├── pom.xml
+└── src
+    ├── main
+    │   ├── java
+    │   │   └── paquete2
+    │   │       ├── Matricula.java
+    │   │       └── Triangulo.java
+    │   └── resources
+    └── test
+        └── java
+            └── paquete2
+                ├── MatriculaTest.java
+                └── TrianguloTest.java
+
+9 directories, 5 files
+
+
+Después del mvn compile
+ivan@ivan-ASUS-TUF-Gaming-F15-FX506LH-FX506LH:~/IdeaProjects/ivv11-ua-ppss-2025-G40-valor-verdu/P00-Maven/P00-maven2$ tree
+.
+├── pom.xml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── paquete2
+│   │   │       ├── Matricula.java
+│   │   │       └── Triangulo.java
+│   │   └── resources
+│   └── test
+│       └── java
+│           └── paquete2
+│               ├── MatriculaTest.java
+│               └── TrianguloTest.java
+└── target
+    ├── classes
+    │   └── paquete2
+    │       ├── Matricula.class
+    │       └── Triangulo.class
+    ├── generated-sources
+    │   └── annotations
+    └── maven-status
+        └── maven-compiler-plugin
+            └── compile
+                └── default-compile
+                    ├── createdFiles.lst
+                    └── inputFiles.lst
+
+18 directories, 9 files

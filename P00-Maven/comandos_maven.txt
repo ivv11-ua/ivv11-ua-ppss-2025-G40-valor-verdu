@@ -1,0 +1,145 @@
+Para los siguientes comandos:
+
+mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ---------------------< practica1.ppss:P00-maven2 >----------------------
+[INFO] Building P00-maven2 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ P00-maven2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.13.0:compile (default-compile) @ P00-maven2 ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 2 source files with javac [debug release 21] to target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.175 s
+[INFO] Finished at: 2025-02-11T19:30:10+01:00
+[INFO] ------------------------------------------------------------------------
+
+mvn test
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ---------------------< practica1.ppss:P00-maven2 >----------------------
+[INFO] Building P00-maven2 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ P00-maven2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.13.0:compile (default-compile) @ P00-maven2 ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ P00-maven2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ivan/IdeaProjects/ivv11-ua-ppss-2025-G40-valor-verdu/P00-Maven/P00-maven2/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ P00-maven2 ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 2 source files with javac [debug release 21] to target/test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:3.5.2:test (default-test) @ P00-maven2 ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] ├─ Tests para la clase Matricula - 0.085 s
+[INFO] │  ├─ ✔ C7_calculaTasaMatricula_should_return_250_when_edad_40_and_fNumerosa_and_not_repetidor - 0.032 s
+[INFO] │  ├─ ✔ Test con edad=23 - 0.002 s
+[INFO] │  ├─ ✔ C6_calculaTasaMatricula_should_return_250_when_edads_70_and_fNumerosa_and_repetidor - 0.001 s
+[INFO] │  ├─ ✘ C5_calculaTasaMatricula_should_return_400_when_edad_60_and_fNumerosa_and_repetidor - 0.008 s
+[INFO]
+[INFO] ● C5_calculaTasaMatricula_should_return_400_when_edad_60_and_fNumerosa_and_repetidor
+[INFO]
+[INFO] Stack trace
+[INFO] org.opentest4j.AssertionFailedError: expected: <400.0> but was: <150.0>
+        at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+        at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+        at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+        at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:118)
+        at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:113)
+        at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:860)
+        at paquete2.MatriculaTest.C5_calculaTasaMatricula_should_return_400_when_edad_60_and_fNumerosa_and_repetidor(MatriculaTest.java:85)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+        at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+        at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[INFO] │  ├─ ✔ C4_calculaTasaMatricula_should_return_250_when_edad_40_and_fNumerosa_and_repetidor - 0.002 s
+[INFO] │  ├─ ✘ C8_calculaTasaMatricula_should_return_400_when_edad_60__and_fNumerosa_and_not_repetidor - 0.003 s
+[INFO]
+[INFO] ● C8_calculaTasaMatricula_should_return_400_when_edad_60__and_fNumerosa_and_not_repetidor
+[INFO]
+[INFO] Stack trace
+[INFO] org.opentest4j.AssertionFailedError: expected: <400.0> but was: <150.0>
+        at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+        at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+        at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+        at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:118)
+        at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:113)
+        at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:860)
+        at paquete2.MatriculaTest.C8_calculaTasaMatricula_should_return_400_when_edad_60__and_fNumerosa_and_not_repetidor(MatriculaTest.java:124)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+        at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+        at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[INFO] │  ├─ ✔ C2_calculaTasaMatricula_should_return_250_when_edad_23_and_fNumerosa_and_not_repetidor - 0.001 s
+[INFO] │  └─ ✔ C3_calculaTasaMatricula_should_return_2000_when_edad_23_and_not_fNumerosa_and_repetidor - 0.001 s
+[INFO] ├─ Tests para la clase Triangulo - 0.014 s
+[INFO] │  ├─ ✔ C3_tipo_triangulo_should_be_Isosceles_when_last_two_sides_are_equals - 0.002 s
+[INFO] │  ├─ ✔ C1_tipo_triangulo_should_be_Equilatero_when_three_sides_are_equals - 0.001 s
+[INFO] │  ├─ ✘ C5_tipo_triangulo_should_be_b_Fuera_rango_when_b_0 - 0.002 s
+[INFO]
+[INFO] ● C5_tipo_triangulo_should_be_b_Fuera_rango_when_b_0
+[INFO]
+[INFO] Stack trace
+[INFO] org.opentest4j.AssertionFailedError: expected: <Valor b fuera del rango permitido> but was: <No es un triangulo>
+        at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+        at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+        at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+        at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+        at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+        at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+        at paquete2.TrianguloTest.C5_tipo_triangulo_should_be_b_Fuera_rango_when_b_0(TrianguloTest.java:81)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+        at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+        at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[INFO] │  ├─ ✔ C2_tipo_triangulo_should_be_No_triangulo_when_sum_of_a_and_b_is_lower_than_c - 0.001 s
+[INFO] │  └─ ✔ C4_tipo_triangulo_should_be_Escaleno_when_three_sides_are_different - 0.001 s
+[INFO]
+[INFO] Results:
+[INFO]
+[ERROR] Failures:
+[ERROR]   MatriculaTest.C5_calculaTasaMatricula_should_return_400_when_edad_60_and_fNumerosa_and_repetidor:85 expected: <400.0> but was: <150.0>
+[ERROR]   MatriculaTest.C8_calculaTasaMatricula_should_return_400_when_edad_60__and_fNumerosa_and_not_repetidor:124 expected: <400.0> but was: <150.0>
+[ERROR]   TrianguloTest.C5_tipo_triangulo_should_be_b_Fuera_rango_when_b_0:81 expected: <Valor b fuera del rango permitido> but was: <No es un triangulo>
+[INFO]
+[ERROR] Tests run: 13, Failures: 3, Errors: 0, Skipped: 0
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.381 s
+[INFO] Finished at: 2025-02-11T19:30:43+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.2:test (default-test) on project P00-maven2: There are test failures.
+[ERROR]
+[ERROR] See /home/ivan/IdeaProjects/ivv11-ua-ppss-2025-G40-valor-verdu/P00-Maven/P00-maven2/target/surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+
+mvn clean
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ P00-maven2 ---
