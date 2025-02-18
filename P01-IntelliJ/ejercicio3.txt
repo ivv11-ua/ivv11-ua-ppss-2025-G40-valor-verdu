@@ -1,0 +1,54 @@
+EJERCICIO 3:
+
+- Comportamientos que pertenezcen al conjunto S (comportamientos epecificados
+  a partir de la especificación del método fechaValida()):
+	(1) <Fecha válida en un año no bisiesto
+         Entrada: Día = 28, Mes = 2, Año = 2023
+         Resultado esperado: true (El 28 de febrero de 2023 es una fecha válida en un año no bisiesto)>
+	(2) <(2) Fecha válida en un año bisiesto
+         Entrada: Día = 29, Mes = 2, Año = 2024
+         Resultado esperado: true (El 29 de febrero de 2024 es una fecha válida, ya que 2024 es un año bisiesto)>
+	(3) <(3) Fecha inválida en un año no bisiesto
+         Entrada: Día = 29, Mes = 2, Año = 2023
+         Resultado esperado: false (El 29 de febrero de 2023 no es válido, ya que 2023 no es un año bisiesto)>
+
+- Comportamientos que pertenezcen al conjunto P (comportamientos programados
+  a partir de la implementación del metodo FechaValida()):
+    (1) <Día válido y mes dentro de rango
+         Entrada: Día = 15, Mes = 5, Año = 2023
+         Resultado esperado: true (El 15 de mayo de 2023 es una fecha válida)>
+	(2) <Mes fuera del rango válido
+         Entrada: Día = 15, Mes = 13, Año = 2023
+         Resultado esperado: false (El mes 13 no es válido, el valor de mes debe estar entre 1 y 12)>
+
+- Comportamientos que pertenezcen a T (comportamientos probados que son casos de prueba
+  para probar si el programa funciona como se espera):
+   (1) <Caso de prueba 1: Día inválido para un mes de 30 días
+        Entrada: Día = 31, Mes = 4, Año = 2023
+        Resultado esperado: false (El 31 de abril no es una fecha válida, ya que abril tiene solo 30 días)>
+   (2) < Caso de prueba 2: Fecha válida en un año bisiesto
+        Entrada: Día = 29, Mes = 2, Año = 2024
+        Resultado esperado: true (El 29 de febrero de 2024 es una fecha válida en un año bisiesto)>
+   (3) <Caso de prueba 3: Fecha válida de fin de año
+        Entrada: Día = 31, Mes = 12, Año = 2025
+        Resultado esperado: true (El 31 de diciembre de 2025 es una fecha válida)>
+
+
+El proceso de AUTOMATIZACIÓN de las pruebas es posterior al proceso de diseño y consiste en:
+	(1) <Ejecución de los tests>
+	(2) <Generación del informe de ejecución>
+
+
+En el proyecto Maven simpleMavenProject,
+
+el subproceso (1) de la automatización lo hemos realizado porque:
+	<aquí debes indicar qué parte del proyecto (código) demuestra que hemos ejecutado el proceso (1) anterior>
+	Se ha creado una clase de prueba en el proyecto con métodos de prueba que contienen los casos de prueba.
+	Estos métodos están marcados con la anotación @Test, lo que indica que son pruebas automatizadas.
+
+
+el subproceso (2) de la automatización lo hemos realizado porque:
+    <aquí debes indicar qué parte del proyecto (fichero) demuestra que hemos ejecutado el proceso (1) anterior>
+    El proyecto incluye una fase de pruebas en el archivo pom.xml que se ejecuta automáticamente cuando se hace un
+    build de Maven. Este proceso ejecuta los tests y genera un informe de los resultados, el cual se muestra en la
+    consola de Maven o en los archivos de salida.

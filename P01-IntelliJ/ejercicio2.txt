@@ -1,0 +1,40 @@
+EJERCICIO 2:
+
+Run configurations para el proyecto Maven SimpleMavenProject:
+
+
+SimpleProject_CompileAll:
+	<mvn clean compile test-compile>
+Lo que hace:
+    Elimina los resultados de construcciones previas (clean).
+    Compila todos los archivos fuente del proyecto, incluyendo los de producción y los de pruebas.
+    No ejecuta los tests, solo compila el código.
+Lo que tengo que ver:
+    En la carpeta target/classes/ aparecerán los archivos .class del código fuente principal.
+    En target/test-classes/ estarán los archivos compilados de los tests.
+    No se generará el reporte de pruebas porque los tests no se ejecutan.
+
+
+SimpleProject_Run_tests:
+	<mvn clean test>
+Lo que hace:
+    Borra cualquier construcción previa (clean).
+    Compila todo el código fuente, incluyendo el código de pruebas (test-compile).
+    Ejecuta los tests con el framework de pruebas configurado (JUnit, TestNG, etc.).
+
+Lo que tengo que ver:
+    En target/classes/ estarán los archivos compilados del código fuente principal.
+    En target/test-classes/ estarán los archivos compilados de los tests.
+    En target/surefire-reports/ o target/failsafe-reports/ aparecerán los resultados de los tests.
+
+
+SimpleProject_Compile_only_tests:
+	<mvn clean test-compile>
+Lo que hace:
+    Borra los resultados de construcciones previas (clean).
+    Solo compila los archivos de pruebas, sin ejecutar los tests.
+
+Lo que tengo que ver:
+    En target/classes/ estarán los archivos compilados del código fuente principal.
+    En target/test-classes/ estarán los archivos compilados de los tests.
+    No habrá reportes de ejecución de tests porque no se ejecutaron.
