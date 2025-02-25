@@ -1,0 +1,22 @@
+RUN CONFIGURATIONS:
+
+- Run_CineTest:
+mvn clean test -Dtest=CineTest
+
+- Run_CineTest_with_html_report: 
+mvn test -Dtest=CineTest -DexcludedGroups=parametrizado
+
+- Run_FicheroTextoTest_sin_excluidos: 
+mvn clean test -Dtest=FicheroTextoTest
+
+- Run_DataArrayTest: 
+mvn clean test -Dtest=DataArrayTest
+
+- Run_Parametrizados:
+mvn test -Dgroups=parametrizado
+
+- Run_Parametrizados_con_excepciones: 
+mvn test -Dgroups=conExcepciones
+
+- Run_todos_with_html_report: 
+mvn test -DexcludedGroups=parametrizado,excluido
