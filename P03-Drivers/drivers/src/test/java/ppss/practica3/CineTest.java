@@ -81,7 +81,7 @@ class CineTest {
         );
     }
 
-    @ParameterizedTest(name = "reservaButacas_[{index}] {4}")
+    @ParameterizedTest(name = "reservaButacas_[{index}] {argumentsWithNames}")
     @MethodSource("cp_reserva")
     @Tag("parametrizado")
     @DisplayName("reservaButacas_")
@@ -90,6 +90,9 @@ class CineTest {
 
         // Llamar al sut
         reservaReal = sut.reservaButacas(asientos, solicitados);
+
+
+
 
         assertAll("TestC5",
                 () -> assertEquals(reservaEsperada, reservaReal, "Fallo en: " + mensaje),

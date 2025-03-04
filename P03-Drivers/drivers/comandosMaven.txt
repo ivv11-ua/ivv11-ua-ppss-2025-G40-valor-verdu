@@ -20,3 +20,6 @@ mvn test -Dgroups=conExcepciones
 
 - Run_todos_with_html_report: 
 mvn test -DexcludedGroups=parametrizado,excluido
+
+
+
