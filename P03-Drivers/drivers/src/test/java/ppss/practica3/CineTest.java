@@ -81,7 +81,7 @@ class CineTest {
         );
     }
 
-    @ParameterizedTest(name = "reservaButacas_[{index}] {argumentsWithNames}")
+    @ParameterizedTest(name = "reservaButacas_[{5}]")
     @MethodSource("cp_reserva")
     @Tag("parametrizado")
     @DisplayName("reservaButacas_")
