@@ -7,7 +7,16 @@
         <option value="$PROJECT_DIR$/untitled/pom.xml" />
         <option value="$PROJECT_DIR$/P05-Dependencias1/P05-stubs/reserva/pom.xml" />
         <option value="$PROJECT_DIR$/P05-Dependencias1/P05-stubs/asignaturas/pom.xml" />
+        <option value="$PROJECT_DIR$/P06-Dependencias2/P06-mocks/premio/pom.xml" />
+        <option value="$PROJECT_DIR$/P06-Dependencias2/P06-mocks/fichero/pom.xml" />
+        <option value="$PROJECT_DIR$/P06-Dependencias2/P06-mocks/notify/pom.xml" />
+        <option value="$PROJECT_DIR$/P06-Dependencias2/P06-mocks/reserva/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/P05-Dependencias1/P05-stubs/reserva/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
