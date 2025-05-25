@@ -11,11 +11,17 @@
         <option value="$PROJECT_DIR$/P06-Dependencias2/P06-mocks/fichero/pom.xml" />
         <option value="$PROJECT_DIR$/P06-Dependencias2/P06-mocks/notify/pom.xml" />
         <option value="$PROJECT_DIR$/P06-Dependencias2/P06-mocks/reserva/pom.xml" />
+        <option value="$PROJECT_DIR$/P07A-Multimodulo/multimodulos/untitled/pom.xml" />
+        <option value="$PROJECT_DIR$/P07A-Multimodulo/multimodulos/hotel/pom.xml" />
+        <option value="$PROJECT_DIR$/P07A-Multimodulo/multimodulos/matriculacion/pom.xml" />
+        <option value="$PROJECT_DIR$/P07B-Integración/dbunit/dbunitexample/pom.xml" />
+        <option value="$PROJECT_DIR$/P07B-Integración/dbunit/matriculacion/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/P05-Dependencias1/P05-stubs/reserva/pom.xml" />
+        <option value="$PROJECT_DIR$/P07A-Multimodulo/multimodulos/untitled/pom.xml" />
       </set>
     </option>
   </component>

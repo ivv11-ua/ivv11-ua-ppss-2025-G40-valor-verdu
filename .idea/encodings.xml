@@ -11,6 +11,38 @@
     <file url="file://$PROJECT_DIR$/P06-Dependencias2/P06-mocks/notify/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/P06-Dependencias2/P06-mocks/premio/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/P06-Dependencias2/P06-mocks/premio/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P06-Dependencias2/P06-mocks/reserva/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P06-Dependencias2/P06-mocks/reserva/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07A-Multimodulo/multimodulos/hotel/hotelDatabase/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07A-Multimodulo/multimodulos/hotel/hotelDatabase/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07A-Multimodulo/multimodulos/hotel/hotelWebApp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07A-Multimodulo/multimodulos/hotel/hotelWebApp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07A-Multimodulo/multimodulos/hotel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07A-Multimodulo/multimodulos/hotel/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07A-Multimodulo/multimodulos/matriculacion/matriculacion-bo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07A-Multimodulo/multimodulos/matriculacion/matriculacion-bo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07A-Multimodulo/multimodulos/matriculacion/matriculacion-comun/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07A-Multimodulo/multimodulos/matriculacion/matriculacion-comun/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07A-Multimodulo/multimodulos/matriculacion/matriculacion-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07A-Multimodulo/multimodulos/matriculacion/matriculacion-dao/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07A-Multimodulo/multimodulos/matriculacion/matriculacion-proxy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07A-Multimodulo/multimodulos/matriculacion/matriculacion-proxy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07A-Multimodulo/multimodulos/matriculacion/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07A-Multimodulo/multimodulos/matriculacion/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07A-Multimodulo/multimodulos/untitled/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07A-Multimodulo/multimodulos/untitled/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07B-Integración/dbunit/dbunitexample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07B-Integración/dbunit/dbunitexample/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07B-Integración/dbunit/matriculacion/matriculacion-bo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07B-Integración/dbunit/matriculacion/matriculacion-bo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07B-Integración/dbunit/matriculacion/matriculacion-comun/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07B-Integración/dbunit/matriculacion/matriculacion-comun/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07B-Integración/dbunit/matriculacion/matriculacion-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07B-Integración/dbunit/matriculacion/matriculacion-dao/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07B-Integración/dbunit/matriculacion/matriculacion-proxy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07B-Integración/dbunit/matriculacion/matriculacion-proxy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07B-Integración/dbunit/matriculacion/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/P07B-Integración/dbunit/matriculacion/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/untitled/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/untitled/src/main/resources" charset="UTF-8" />
   </component>

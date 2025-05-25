@@ -6,13 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="matriculacion-proxy (1)" />
+        <module name="matriculacion-bo (1)" />
         <module name="premio" />
-        <module name="asignaturas" />
-        <module name="fichero" />
+        <module name="matriculacion-comun" />
+        <module name="dbunitexample" />
+        <module name="hotelWebApp" />
         <module name="notify" />
+        <module name="matriculacion-dao (1)" />
+        <module name="hotelDatabase" />
+        <module name="matriculacion-dao" />
+        <module name="matriculacion-comun (1)" />
+        <module name="matriculacion-proxy" />
+        <module name="fichero" />
+        <module name="reserva (2) (ppss.P06)" />
+        <module name="matriculacion-bo" />
+        <module name="asignaturas" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="matriculacion (1)" target="11" />
+      <module name="reserva" target="21" />
       <module name="untitled" target="21" />
     </bytecodeTargetLevel>
   </component>
