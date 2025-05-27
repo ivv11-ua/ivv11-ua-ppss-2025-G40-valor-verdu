@@ -125,9 +125,9 @@ public class ClienteDAO_IT {
      databaseTester.onSetup();
 
      // Intentamos eliminar un cliente que NO existe (por ejemplo, id=99)
-     SQLException thrown = Assertions.assertThrows(SQLException.class, () -> {
-       clienteDAO.delete(cliente); // ID inexistente
-     });
+     SQLException thrown = Assertions.assertThrows(SQLException.class, () ->
+       clienteDAO.delete(cliente)// ID inexistente
+     );
 
      Assertions.assertTrue(thrown.getMessage().contains("Delete failed"));
    }
